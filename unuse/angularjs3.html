@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <title>AngularJS2</title>
+    <script src="../api/angularjs/angular.min.js"></script>
+</head>
+<style>
+</style>
+<body>
+    <div ng-app="myApp" ng-controller="myCtrl">
+        <ul>
+            <li ng-repeat="name in names">
+                <p>{{name.Name}}</p>
+                <p>{{name.Url}}</p>
+                <p>{{name.Country}}</p>
+            </li>
+        </ul>
+    </div>
+</body>
+<script type="text/javascript">
+    var app = angular.module("myApp",[]);
+    app.controller("myCtrl",function ($scope,$http,$sce) {
+        // $http.jsonp("https://www.runoob.com/try/angularjs/data/sites.php?callback=JSON_CALLBACK")
+        //  .success(function (response) {
+        //     console.log(response)
+        // })
+        // $http({
+        //     method:"JSONP",
+        //     url:"https://www.runoob.com/try/angularjs/data/sites.php?callback=JSON_CALLBACK"
+        // }).then(function successCallback(response) {
+        //     console.log(response)
+        // },function errorCallback(response) {
+        //     console.log(response)
+        // })
+        $http.jsonp("https://www.runoob.com/try/angularjs/data/sites.php?callback=JSON_CALLBACK").then(function (data) {
+            console.log($sce.trustAsHtml(data))
+        })
+    })
+</script>
+</html>

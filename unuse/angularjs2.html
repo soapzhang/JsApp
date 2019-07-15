@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS2</title>
+    <script src="../api/angularjs/angular.min.js"></script>
+</head>
+<style>
+    input.ng-invalid {
+        background: red;
+    }
+</style>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+姓名:{{msg|reverse}}
+</div>
+</body>
+<script type="text/javascript">
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope,$location) {
+        $scope.msg = "John";
+        console.log($location.path());
+    });
+    app.filter("reverse",function () {
+        return function (text) {
+            return text=text.split("").reverse().join("");
+        }
+    })
+</script>
+</html>

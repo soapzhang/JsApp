@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../api/angularjs/angular.min.js"></script>
+</head>
+<style>
+    table,th,td{
+        border:1px solid grey;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+    table tr:nth-child(odd) {
+        background-color: #f1f1f1;
+    }
+    table tr:nth-child(even) {
+        background-color: #ffffff;
+    }
+</style>
+<body>
+    <div ng-app="myApp" ng-controller="myCtrl">
+        <table>
+            <tr ng-repeat="x in names|orderBy:'Country'">
+                <td ng-if="$odd" style="background-color:red">{{x.Name}}</td>
+                <td ng-if="$even&&!$last">{{x.Name}}</td>
+                <td ng-if="$odd" style="background-color:red">{{x.Country|uppercase}}</td>
+                <td ng-if="$even&&!$last ">{{x.Country|uppercase}}</td>
+                <td ng-if="$last" style="background-color:green">{{x.Name}}</td>
+                <td ng-if="$last" style="background-color:green">{{x.Country|uppercase}}</td>
+            </tr>
+        </table>
+
+        <button ng-click="count = count + 1">点我！</button>
+
+        <p>{{ count }}</p>
+    </div>
+</body>
+<script type="text/javascript">
+    var app=angular.module("myApp",[]);
+    app.controller("myCtrl",function ($scope,$http) {
+        $scope.names = [
+            {Name:"zhangsan",Country:"china"},
+            {Name:"zhangsan",Country:"china"},
+            {Name:"zhangsan",Country:"china"},
+            {Name:"zhangsan",Country:"china"},
+            {Name:"zhangsan",Country:"china"},
+            {Name:"zhangsan",Country:"china"},
+            {Name:"zhangsan",Country:"china"},
+            {Name:"zhangsan",Country:"china"},
+            {Name:"zhangsan",Country:"china"},
+        ]
+        $scope.count=10
+    });
+    (function () {
+       console.log("haha")
+    })();
+</script>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ng-options默认选中</title>
+    <script src="../api/angularjs/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app="myApp" ng-controller="myCtrl">
+        <h5>使用ng-options，ng-init设默认值</h5>
+        <select ng-init="selectedName = names[1]" ng-model="selectedName" ng-options="x for x in names"></select>
+        <h5>使用ng-repeat</h5>
+        <select ng-model="optionSelected">
+            <option ng-repeat="x in names">{{x}}</option>
+        </select>
+        <h5>使用 ng-options,值为对象</h5>
+        <select ng-model="selectSite" ng-options="y for (x,y) in sites"></select>
+        <h5>选中的为{{selectSite}}</h5>
+    </div>
+</body>
+ <script type="text/javascript">
+     var app = angular.module('myApp',[]);
+     app.controller("myCtrl",function ($scope) {
+         $scope.names=['google','runoob','taobao'];
+         $scope.sites ={
+             site01:"google",
+             site02:"runboo",
+             site03:"taobao"
+         };
+         $scope.optionSelected=$scope.names[1];//为ng-repeat设默认值
+         $scope.selectSite=$scope.sites.site02;//为ng-options设默认值
+     })
+ </script>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>avalon</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <link rel="stylesheet" href="http://localhost:8080/arcgis_js_api/library/3.18/3.18/esri/css/esri.css"/>
+    <script src="../api/avalon.js"></script>
+    <script>
+    var vm1 = avalon.define({
+        $id:"test",
+        username:"Cecil"
+    })
+    </script>
+    <style>
+        html,body,#map{
+            height: 90%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script src="http://localhost:8080/arcgis_js_api/library/3.18/3.18/init.js"/>
+    <script>
+        var map ;
+        require(["esri/map","dojo/domReady"],function (Map) {
+           map=new Map("map",{
+               basemap:"topo",
+               center:[-122.45,37.75],
+               zoom:13
+           })
+
+        });
+    </script>
+</head>
+<body>
+    <div ms-controller="test">
+        <input ms-duplex="username"/>
+        <strong>{{username}}</strong>
+    </div>
+    <div id="map"></div>
+</body>
+</html>

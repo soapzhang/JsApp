@@ -1,0 +1,37 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+    第一种方式：<br/>
+    有$sce处理：<audio  ng-src="{{sceControl(formData.mediaUrl)}}"  controls="controls">您的浏览器不支持html5</audio><br/>
+    无$sce处理：<audio  ng-src="{{formData.mediaUrl}}"  controls="controls">您的浏览器不支持html5</audio><br/><br/>
+
+    第二种方式：<br/>
+    <audio  ng-src="{{data.url}}"  controls="controls">您的浏览器不支持html5</audio>
+</div>
+
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope,$sce){
+        //第一种方式数据源
+        $scope.formData={
+            "name":"视频",
+            "mediaUrl":"http://res.audiogroup.cn/res/upload/agx_ims_creative/audio/20160307/bpryk96.mp3"//视频路径
+        };
+        $scope.sceControl = $sce.trustAsResourceUrl;//第一种处理方式
+
+        //第二种方式数据源
+        $scope.data={
+            "name":"视频",
+            "url":"http://res.audiogroup.cn/res/upload/agx_ims_creative/audio/20160307/bpryk96.mp3"//视频路径
+        };
+        $scope.data.url = $sce.trustAsResourceUrl($scope.data.url);//第二种处理方式
+
+    });
+</script>
+</body>
+</html>
