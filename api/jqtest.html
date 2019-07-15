@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="jq/jquery-3.4.1.min.js"></script>
+<body>
+    <h1 class="soap1" title="t1">ceshi11</h1>
+    <h1 class="soap1" title="t2">ceshi12</h1>
+    <h2 class="soap2">ceshi2</h2>
+</body>
+<script type="text/javascript">
+    var soap=$(".soap1");
+    console.log(soap.get(0).innerHTML);
+    console.log($(".soap1").html()=="ceshi1");
+    console.log($(".soap").html()=="");
+    console.log($(".soap").html()==null);
+    $.each(soap,function (i,n) {
+        console.log(i);
+        console.log(n);
+        console.log(n.title);
+    })
+</script>
+</html>
