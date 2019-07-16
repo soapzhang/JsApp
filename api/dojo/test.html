@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .node{
+        border: 1px solid #ccc;
+    }
+    .h1 .h2 {
+        color: red;
+    }
+    .h1 {
+        background: #0aa908;
+    }
+    .h2 {
+        background: #0c86af;
+    }
+</style>
+<script>
+    var dojoConfig={
+        asyn:true,
+    }
+</script>
+<script src="dojo/dojo.js"></script>
+<body>
+    <div id="base"></div>
+    <h1 class="h1">h1 测试</h1>
+    <h2 class="h2">h2 测试</h2>
+</body>
+<script type="text/javascript">
+    require(["test"],function (test) {
+        var te=new test({},"base")
+    })
+</script>
+</html>

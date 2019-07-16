@@ -2,51 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4186025d-e425-4839-a438-e0e0656efde5" name="默认的" comment="add:angular,dojo,requireJS,bootstrap,$,echarts">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/js.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular模板1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular模板2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular模板3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular模板4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular模板5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/angularjs/angular-animate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/angularjs/angular-animate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/angularjs/angular-animate.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/angularjs/angular-route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/angularjs/angular-route.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/angularjs/angular-route.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/angularjs/angular-sanitize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/angularjs/angular.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/angularjs/angular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/angularjs/angular.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/avalon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/bootstrap431dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/data/dojo.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/dojo/build-report.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/dojo/dijit/BackgroundIframe.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/dojo/dijit/BackgroundIframe.js.uncompressed.js" afterDir="false" />
@@ -10329,128 +10284,7 @@
       <change afterPath="$PROJECT_DIR$/api/dojo/template.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/dojo/test.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/dojo/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/echarts/china.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/echarts/echarts-gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/echarts/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/1Password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3-256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3d_mogu_27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/3ds_max.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/4x4_256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/5_times_winners.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/Acorn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/Acorn_Squash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/Adobe-Illustrator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/Adobe-Premiere.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/Adobe-reader.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/After-Effects.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/Agate256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/Alarm-Clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/Amityville.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/aang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/abyssinian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/accdb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/accept-female-user256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/accept.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/acrobat_256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/add-female-user256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/add-to-shopping-basket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/addons256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/addressbook-add256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/addressbook-edit256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/addressbook-remove256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/addressbook-search256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/adium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/administrator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/agonizer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/ai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/ai256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/air_scooter_aang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/air_tickets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/airfoil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/airfoil_speakers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/airplane_256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/airplane_grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/airport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/ajisai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/alarm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/alert.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/alligator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/american_shorthair.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/analysis256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/anchor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/android-action-complete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/android-adobe-photoshop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/android-amazon-mp3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/android-barcode-reader.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/android-bluetooth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/android-browser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/android-buzz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/android-calculator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/android-calender.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/android-camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/android-car-home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/android-clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/android-contacts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/android-email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/android-evernote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/image/android-facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/jq/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/jqtest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/soap/dojoWidget/trmplates/widget.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/soap/dojoWidget/trmplates/widget1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/soap/dojoWidget/widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/echarApp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/myUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myNoteApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myNoteCtrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/tem1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unuse/12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unuse/angular4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unuse/angular5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unuse/angular6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unuse/angularjs1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unuse/angularjs2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unuse/angularjs3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unuse/avalon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unuse/dojo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -10493,8 +10327,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/dojo/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="32" column="11" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="11" />
+            <state relative-caret-position="12">
+              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -10660,17 +10494,39 @@
       <workItem from="1562740315191" duration="1000" />
       <workItem from="1562740341608" duration="5199000" />
       <workItem from="1562824162042" duration="598000" />
-      <workItem from="1563172028673" duration="4916000" />
+      <workItem from="1563172028673" duration="5991000" />
     </task>
+    <task id="LOCAL-00001" summary="add:angular,dojo,requireJS,bootstrap,$,echarts">
+      <created>1563182973615</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563182973616</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add:angular,dojo,requireJS,bootstrap,$,echarts">
+      <created>1563183109130</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563183109130</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add:angular,dojo,requireJS,bootstrap,$,echarts">
+      <created>1563183892443</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563183892444</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75827000" />
+    <option name="totallyTimeSpent" value="76902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26864687" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26864687" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -10683,10 +10539,10 @@
       <window_info anchor="bottom" id="更改" order="7" />
       <window_info anchor="bottom" id="版本控制" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32896653" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50033003" side_tool="true" visible="true" weight="0.32896653" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.08316832" side_tool="true" visible="true" weight="0.6404658" />
       <window_info anchor="bottom" id="Application Servers" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49966997" visible="true" weight="0.32896653" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.9168317" visible="true" weight="0.6404658" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -10733,6 +10589,11 @@
     <MESSAGE value="add:angular,dojo,requireJS,bootstrap,$" />
     <MESSAGE value="add:angular,dojo,requireJS,bootstrap,$,echarts" />
     <option name="LAST_COMMIT_MESSAGE" value="add:angular,dojo,requireJS,bootstrap,$,echarts" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="639" height="945" key="Git.Branch.Popup" />
+    <state width="639" height="945" key="Git.Branch.Popup/1920.1080" />
+    <state width="639" height="945" key="Git.Branch.Popup@1920.1080@120dpi" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/api/avalon.js">
@@ -11045,8 +10906,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/dojo/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="11" />
+        <state relative-caret-position="12">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>
